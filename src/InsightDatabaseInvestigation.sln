@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightDatabaseInvestigation", "InsightDatabaseInvestigation\InsightDatabaseInvestigation.csproj", "{56B3309F-B793-4A55-A795-088AAB98C485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsightDatabaseInvestigation.Tests", "InsightDatabaseInvestigation.Tests\InsightDatabaseInvestigation.Tests.csproj", "{CEE2EE01-6722-4A27-8624-B77D2EB2DE0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56B3309F-B793-4A55-A795-088AAB98C485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B3309F-B793-4A55-A795-088AAB98C485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B3309F-B793-4A55-A795-088AAB98C485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B3309F-B793-4A55-A795-088AAB98C485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE2EE01-6722-4A27-8624-B77D2EB2DE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE2EE01-6722-4A27-8624-B77D2EB2DE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE2EE01-6722-4A27-8624-B77D2EB2DE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE2EE01-6722-4A27-8624-B77D2EB2DE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
