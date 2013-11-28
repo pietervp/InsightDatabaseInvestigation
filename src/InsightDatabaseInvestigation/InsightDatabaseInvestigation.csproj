@@ -57,17 +57,29 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\createCommand.sql">
+    <Content Include="Scripts\MSSQL\GetUsersGraph.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Scripts\insertDummyData.sql">
+    <Content Include="Scripts\SQlite\createCommand.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Scripts\SQlite\insertDummyData.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DatabaseConfig.cs" />
+    <Compile Include="Depricated\DatabaseConfig.cs" />
+    <Compile Include="Contract\IDatabaseFactory.cs" />
+    <Compile Include="Contract\IDatabaseInitializer.cs" />
+    <Compile Include="Model\Membership.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="DatabaseFactories\SqlDatabaseFactory.cs" />
+    <Compile Include="DatabaseFactories\SQliteDatabaseFactory.cs" />
+    <Compile Include="Initializers\SQliteDatabaseInitializer.cs" />
+    <Compile Include="Model\User.cs" />
+    <Compile Include="Model\UserGroup.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
